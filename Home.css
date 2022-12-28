@@ -2,6 +2,9 @@ body{
     margin: auto;
     background-color:rgb(212, 210, 210);
 }
+section{
+    background-color:red;
+}
 #nav_bar{
     width:100%;
     height:10vh;
@@ -244,10 +247,51 @@ body{
  .product-images-div p{
     font-size: 12px;
  }
- #footer{
+ .carousel-item{
+    height: 195vh;
+    background-color:rgba(0,0,0,.125)
+    /* object-fit:cover; */
+    /* vertical-align: middle; */
+}
+footer{
+    height: 100%;
+    width: 100%;
+    background-color:#131921;
+    color: white;
+    text-align: center;
+    
+}
+table{
+    column-gap: 2px;
+    text-align: left;
+    font-family: inherit;
+}
+#footer_flex{
+    display: flex;
     width:100%;
-    height:10vh;
-    background-color:red;
-    z-index: 9;
-    /* background-color:#131921; */
- }
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+th{
+    padding-right: 51px;
+    padding-bottom: 8px;
+}
+footer span{
+    font-family: inherit;
+    white-space: normal;
+    font-size: 12px;
+}
+.coupon{
+    height: 500px;
+    width: 500px;
+    background-color: #3b2632;
+    border: 2px solid red;
+    z-index: 11;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-image: url(./images/coupon.jpeg);
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+}
