@@ -286,7 +286,7 @@ footer span{
     height: 500px;
     width: 500px;
     background-color: #3b2632;
-    border: 2px solid red;
+/*     border: 2px solid red; */
     z-index: 11;
     position: absolute;
     margin-top: 10%;
